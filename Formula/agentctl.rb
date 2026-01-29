@@ -7,22 +7,22 @@ class Agentctl < Formula
   on_macos do
     on_arm do
       url "https://github.com/proompteng/lab/releases/download/agentctl-v#{version}/agentctl-#{version}-darwin-arm64.tar.gz"
-      sha256 "9b085616cb1abd8175dfd56d04e589b791020b44bfd3354ffbdf529d59def915"
+      sha256 "997386b9b56c6bbc04b7ed1eb741273cd779fac92028e701fce17182b4e9d5a2"
     end
     on_intel do
       url "https://github.com/proompteng/lab/releases/download/agentctl-v#{version}/agentctl-#{version}-darwin-amd64.tar.gz"
-      sha256 "6a3ce5e6c0c4fe0369ce04e42098a7a70ea86714bbf4145453b17c9171f82d09"
+      sha256 "ac79599943f8384106f15118035ccafd71e4c5f00f85eceae5107da0a76ff5f8"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/proompteng/lab/releases/download/agentctl-v#{version}/agentctl-#{version}-linux-arm64.tar.gz"
-      sha256 "1d997f2faeb134cf78d70557c493af5b23a7a0c2d7413d3557d7d324f5a8dc2c"
+      sha256 "e7a41484d4a5ebd6d45fe23a88d6fa04584477885825c6a9ea81575ff1dde48d"
     end
     on_intel do
       url "https://github.com/proompteng/lab/releases/download/agentctl-v#{version}/agentctl-#{version}-linux-amd64.tar.gz"
-      sha256 "e2d70994f71f9066ebe6f278c1d4df2b4d39bbfa8c5174fcddf6d2304c2ad344"
+      sha256 "5d239f4ace2350d859e24941e09dfdaffcf55bfb33d22724f854ae1b21ffeb56"
     end
   end
 
