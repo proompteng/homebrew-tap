@@ -1,28 +1,28 @@
 class Agentctl < Formula
   desc "CLI for managing Agents through Kubernetes or Jangar gRPC"
   homepage "https://github.com/proompteng/lab/tree/main/services/jangar/agentctl"
-  version "0.1.6"
+  version "0.2.2"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/proompteng/lab/releases/download/agentctl-v#{version}/agentctl-#{version}-darwin-arm64.tar.gz"
-      sha256 "768157e763fabc01832a339d6c747ab02c32bf3f1b416bc1ea0050e686c4624d"
+      sha256 "f5ba66d554bb3f9ff19de97f4c7d03f236a5f76d2e49193d77a118b9968003c3"
     end
     on_intel do
       url "https://github.com/proompteng/lab/releases/download/agentctl-v#{version}/agentctl-#{version}-darwin-amd64.tar.gz"
-      sha256 "ba547857c59e14ff25aa8c194a7e0f63bda1fb5cf4187717de7ff56b708ba9b4"
+      sha256 "a72650d86644e13b6316a990f5479e0b79e17981e6c4437bb2ba80e17bf74787"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/proompteng/lab/releases/download/agentctl-v#{version}/agentctl-#{version}-linux-arm64.tar.gz"
-      sha256 "ded58f85691f75bc48a071d3d3b829994a3b4655ae50b838ebc38fd8573d7490"
+      sha256 "48b5bfb8f850afda8a77eb01747f18d1cf31f489084d67aa80d6fded0373d720"
     end
     on_intel do
       url "https://github.com/proompteng/lab/releases/download/agentctl-v#{version}/agentctl-#{version}-linux-amd64.tar.gz"
-      sha256 "ea4e0b5ff3a838cf57a713440afa9805026694872b90fe1bfcabef23cc171ed3"
+      sha256 "9593fe05c61a14a3d6bb1274d21b29d3ae4d70f994e59ead1d1d41bc4c85d7e1"
     end
   end
 
